@@ -20,7 +20,7 @@
 			span If successful, this application will download an enrollment certificate. 
 			br
 			br
-			span The admin's certificate is used to authenticate himself for marble transactions. 
+			span The admin's certificate is used to authenticate himself for diamond transactions.
 		.stepCircleStatus
 
 	.stepNext
@@ -29,7 +29,7 @@
 	//----------------- Step 2 Content
 	.stepWrap.inactiveStep#step2
 		.stepIcon.fa.fa-file-text.fa-5x
-		.stepHeader Finding Chaincode 
+		.stepHeader Finding Smart Contract
 		a(href="#").stepEdit Edit
 		.stepLoadingWrap
 			.loadingdiv.stepLoading
@@ -40,8 +40,8 @@
 				span
 				div
 		.stepDescription 
-			span Marbles chaincode defines the rules of the application. 
-			span It describes the assets (marbles) and the rules around marble transfers. 
+			span Diamonds smart contract (chaincode) defines the rules of the application.
+			span It describes the assets (diamonds) and the rules around diamond transfers.
 			br
 			br
 			span It only needs to be instantiated once per channel. 
@@ -53,7 +53,7 @@
 	//----------------- Step 3 Content
 	.stepWrap.inactiveStep#step3
 		.stepIcon.fa.fa-group.fa-5x
-		.stepHeader Register Marble Owners
+		.stepHeader Register Diamond Owners
 		a(href="#").stepEdit Edit
 		.stepLoadingWrap
 			.loadingdiv.stepLoading
@@ -64,8 +64,8 @@
 				span
 				div
 		.stepDescription 
-			span As a marbles trading company you may bring new marble owners onboard. 
-			span These marble owners represent your user base, and will transact on the network via your organization’s peer. 
+			span As a diamonds trading company you may bring new diamond owners onboard.
+			span These diamond owners represent your user base, and will transact on the network via your organization’s peer.
 		.stepCircleStatus
 
 	//----------------- All done
@@ -74,7 +74,7 @@
 		br
 		br
 		.stepHelpTxt
-			p Your marbles application is ready to use.
+			p Your diamonds application is ready to use.
 			br
 			br
 			button(type="button").closeStartUp Close
@@ -113,7 +113,7 @@
 			p 
 				span If this is your first time using the application then&nbsp;
 				a(href="https://github.com/IBM-Blockchain/marbles/blob/v3.0/docs/install_chaincode.md" target="_blank" style="color:#fff;") install/instantiate
-				span &nbsp;marbles chaincode
+				span &nbsp;diamonds chaincode
 
 		br
 		.stepInputLegend Orderer 
@@ -132,12 +132,12 @@
 
 	//---------- Register User Help
 	.stepHelpWrap#regUserStep
-		h2 Register Marble Owners
+		h2 Register Diamond Owners
 		br
 		br
 		.stepHelpTxt
-			p Bring your marble owners onboard by providing a comma seperated list of usernames.
-			p These are the identies that can own marbles.
+			p Bring your diamond owners onboard by providing a comma seperated list of usernames.
+			p These are the identies that can own diamonds.
 		br
 		.stepInputLegend Company 
 		input(type="text" value=bag.marble_company disabled="disabled").longer

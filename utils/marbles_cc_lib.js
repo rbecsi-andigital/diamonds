@@ -67,7 +67,7 @@ module.exports = function (enrollObj, g_options, fcw, logger) {
 	//create a marble
 	marbles_chaincode.create_a_marble = function (options, cb) {
 		console.log('');
-		logger.info('Creating a marble...');
+		logger.info('Creating a diamond...');
 
 		var opts = {
 			channel_id: g_options.channel_id,
@@ -98,7 +98,7 @@ module.exports = function (enrollObj, g_options, fcw, logger) {
 	//get list of marbles
 	marbles_chaincode.get_marble_list = function (options, cb) {
 		console.log('');
-		logger.info('Fetching marble index list...');
+		logger.info('Fetching diamond index list...');
 
 		var opts = {
 			channel_id: g_options.channel_id,
@@ -112,7 +112,7 @@ module.exports = function (enrollObj, g_options, fcw, logger) {
 
 	//get marble
 	marbles_chaincode.get_marble = function (options, cb) {
-		logger.info('fetching marble ' + options.marble_id + ' list...');
+		logger.info('fetching diamond ' + options.marble_id + ' list...');
 
 		var opts = {
 			channel_id: g_options.channel_id,
@@ -127,7 +127,7 @@ module.exports = function (enrollObj, g_options, fcw, logger) {
 	//set marble owner
 	marbles_chaincode.set_marble_owner = function (options, cb) {
 		console.log('');
-		logger.info('Setting marble owner...');
+		logger.info('Setting diamond owner...');
 
 		var opts = {
 			channel_id: g_options.channel_id,
@@ -150,7 +150,7 @@ module.exports = function (enrollObj, g_options, fcw, logger) {
 	//delete marble
 	marbles_chaincode.delete_marble = function (options, cb) {
 		console.log('');
-		logger.info('Deleting a marble...');
+		logger.info('Deleting a diamond...');
 
 		var opts = {
 			channel_id: g_options.channel_id,
@@ -185,7 +185,7 @@ module.exports = function (enrollObj, g_options, fcw, logger) {
 
 	//get multiple marbles/owners by start and stop ids
 	marbles_chaincode.get_multiple_keys = function (options, cb) {
-		logger.info('Getting marbles between ids', options.args);
+		logger.info('Getting diamonds between ids', options.args);
 
 		var opts = {
 			channel_id: g_options.channel_id,
@@ -206,7 +206,7 @@ module.exports = function (enrollObj, g_options, fcw, logger) {
 	//register a owner/user
 	marbles_chaincode.register_owner = function (options, cb) {
 		console.log('');
-		logger.info('Creating a marble owner...');
+		logger.info('Creating a diamond owner...');
 
 		var opts = {
 			channel_id: g_options.channel_id,
