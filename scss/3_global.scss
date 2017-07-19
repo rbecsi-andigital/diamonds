@@ -206,13 +206,17 @@ $auditSize: 333px;
 .smallMarble{
 	height: 40px;
 	width: 40px;
+	i {
+		font-size: 35px;
+		vertical-align: middle;
+	}
 }
 .ball{
 	display:inline-block;
 	border:2px transparent solid;
 	padding:0;
 	vertical-align: bottom;
-	border-radius: 1000px;
+	//border-radius: 1000px;
 }
 .ball:hover{
 	cursor: pointer;
@@ -306,6 +310,10 @@ $auditSize: 333px;
 	width: 75px;
 	line-height: 75px;
 }
+.largeMarble i{
+	font-size: 65px;
+	vertical-align: middle;
+}
 .createball{
 	display: inline-block;
 	font-size:275px;
@@ -384,15 +392,15 @@ $auditSize: 333px;
 .orange{color:#ED8F30;}
 .yellow{color:#DAC94E;}
 
-.whitebg{background:#FFFEF3;}
-.blackbg{background:#1C2026}
-.redbg{background:#F15847}
-.greenbg{background:#68B369}
-.bluebg{background:#3D76BA}
-.purplebg{background:#634FA1}
-.pinkbg{background:#CC5AA2}
-.orangebg{background:#ED8F30}
-.yellowbg{background:#DAC94E}
+.whitebg{color:#FFFEF3;}
+.blackbg{color:#1C2026}
+.redbg{color:#F15847}
+.greenbg{color:#68B369}
+.bluebg{color:#3D76BA}
+.purplebg{color:#634FA1}
+.pinkbg{color:#CC5AA2}
+.orangebg{color:#ED8F30}
+.yellowbg{color:#DAC94E}
 
 
 .colorSelectWrap{

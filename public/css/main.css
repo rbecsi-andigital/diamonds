@@ -424,13 +424,15 @@ strong {
 .smallMarble {
   height: 40px;
   width: 40px; }
+  .smallMarble i {
+    font-size: 35px;
+    vertical-align: middle; }
 
 .ball {
   display: inline-block;
   border: 2px transparent solid;
   padding: 0;
-  vertical-align: bottom;
-  border-radius: 1000px; }
+  vertical-align: bottom; }
 
 .ball:hover {
   cursor: pointer;
@@ -516,6 +518,10 @@ strong {
   height: 75px;
   width: 75px;
   line-height: 75px; }
+
+.largeMarble i {
+  font-size: 65px;
+  vertical-align: middle; }
 
 .createball {
   display: inline-block;
@@ -608,31 +614,31 @@ strong {
   color: #DAC94E; }
 
 .whitebg {
-  background: #FFFEF3; }
+  color: #FFFEF3; }
 
 .blackbg {
-  background: #1C2026; }
+  color: #1C2026; }
 
 .redbg {
-  background: #F15847; }
+  color: #F15847; }
 
 .greenbg {
-  background: #68B369; }
+  color: #68B369; }
 
 .bluebg {
-  background: #3D76BA; }
+  color: #3D76BA; }
 
 .purplebg {
-  background: #634FA1; }
+  color: #634FA1; }
 
 .pinkbg {
-  background: #CC5AA2; }
+  color: #CC5AA2; }
 
 .orangebg {
-  background: #ED8F30; }
+  color: #ED8F30; }
 
 .yellowbg {
-  background: #DAC94E; }
+  color: #DAC94E; }
 
 .colorSelectWrap {
   text-align: left;

@@ -30,8 +30,10 @@ function build_marble(marble) {
 
 	if(auditingMarble && marble.id ===  auditingMarble.id) auditing = 'auditingMarble';
 
-	html += '<span id="' + marble.id + '" class="ball ' + size + ' ' + colorClass + ' ' + auditing + ' title="' + marble.id + '"';
-	html += ' username="' + marble.owner.username + '" company="' + marble.owner.company + '" owner_id="' + marble.owner.id + '"></span>';
+	// html += '<span id="' + marble.id + '" class="ball ' + size + ' ' + colorClass + ' ' + auditing + '" title="' + marble.id + '"';
+  html += `<span id="${marble.id}" class="ball ${size} ${colorClass} ${auditing}" title="${marble.id}"`;
+	// html += ' username="' + marble.owner.username + '" company="' + marble.owner.company + '" owner_id="' + marble.owner.id + '"></span>';
+  html += `username="${marble.owner.username}" company="${marble.owner.company}" owner_id="${marble.owner.id}"><i class="fa fa-diamond"></i></span>`;
 
 	$('.marblesWrap[owner_id="' + marble.owner.id + '"]').find('.innerMarbleWrap').prepend(html);
 	$('.marblesWrap[owner_id="' + marble.owner.id + '"]').find('.noMarblesMsg').hide();
